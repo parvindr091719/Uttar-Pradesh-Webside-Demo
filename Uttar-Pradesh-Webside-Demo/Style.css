@@ -1,0 +1,140 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+  }
+  
+  .pimg1, .pimg2, .pimg3{
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+  
+    
+      /* fixed = parallax
+      scroll = normal */
+   
+    background-attachment:fixed;
+  }
+
+
+  .mw-parser-output .ib-settlement {
+    width: 23em;
+    border-collapse: collapse;
+    line-height: 1.2em;
+}
+
+
+.infobox {
+    border: 1px solid #a2a9b1;
+    border-spacing: 3px;
+    background-color: #f8f9fa;
+    color: black;
+    margin: 0.5em 0 0.5em 1em;
+    padding: 0.2em;
+    float: right;
+    clear: right;
+    font-size: 88%;
+    line-height: 1.5em;
+    width: 22em;
+}
+table {
+    font-size: 100%;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+
+  
+  .pimg1{
+    background-image:url('./India_Uttar_Pradesh_location_map.svg');
+    min-height:100%;
+  }
+
+  
+.toc {
+  display: table;
+  padding: 100px;
+  /* background-image: url("./UP.jpg");
+  min-height: 100%; */
+}
+.toc, .toccolours {
+
+  border: 1px solid #00060c;
+  background-color: #f8f9fa;
+  padding: 5px;
+  font-size: 95%;
+}
+
+  
+  .pimg2{
+    background-image:url('./UP1.jpg');
+    min-height:100%;
+  }
+  
+  .pimg3{
+    background-image:url('./UP2.jpg');
+    min-height:100%;
+  }
+/* 
+  .pimg4{
+    background-image: url("./UP.jpg");
+    min-height: 100%;
+  } */
+  
+  .section{
+    text-align:left;
+    padding:50px 80px;
+  }
+  
+  .section-light{
+    background-color:#f4f4f4;
+    color:#666;
+  }
+  
+  .section-dark{
+    background-color:#282e34;
+    color:#ddd;
+  }
+  
+  .ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+  }
+  
+  .ptext .border{
+    background-color:#111;
+    color:#fff;
+    padding:20px;
+  }
+  
+  .ptext .border.trans{
+    background-color:transparent;
+    background-color: rgb(108, 108, 138);
+
+  }
+  
+  @media(max-width:568px){
+    .pimg1, .pimg2, .pimg3{
+      background-attachment:scroll;
+    }
+  }
+  
